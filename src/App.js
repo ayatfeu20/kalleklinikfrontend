@@ -1,10 +1,10 @@
 import React  from "react";
 import "./App.css";
 import Navbar from './components/Navbar/Navbar';
-import Appointment from "./components/Appointment/Appointment";
-import Display from "./components/Appointment/Display";
-import Login from "./components/Appointment/Login";
-import Confirmation from "./components/Appointment/Confirmation";
+import Appointment from "./pages/Appointment/Appointment";
+import Display from "./pages/Appointment/Display";
+import Login from "./pages/Appointment/Login";
+import Confirmation from "./pages/Appointment/Confirmation";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
