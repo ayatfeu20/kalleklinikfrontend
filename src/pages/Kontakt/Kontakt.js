@@ -4,6 +4,7 @@ import "./Kontakt.css";
 import background from './/contact-us-gff87e215a_1920.jpg'
 import { FaPhone,FaMapMarkerAlt,FaEnvelope} from 'react-icons/fa';
 
+
 import figure from 'react-bootstrap/figure';
 
 function Kontakt() {
