@@ -17,9 +17,10 @@ export default function Home() {
             <a href="/about" class="about-btn scrollto"><span class=" d-md-inline">Läs</span> mer</a>
             </div>  
              
-            <Carousel infiniteLoop useKeyboardArrows autoPlay showStatus={false} showThumbs={false}  dynamicHeight={true} >
+          
+            <Carousel infiniteLoop useKeyboardArrows autoPlay showStatus={false} showThumbs={false}  dynamicHeight={true}  >
             
-                <div> <img src="./images/5-2.png" className="pt-100" alt="" /></div>
+                <div> <img src="./images/5-2.png" className="pt-100 active " alt="" /></div>
                 <div> <img src="./images/joyce-mccown-IG96K_HiDk0-unsplash.jpg" alt="" /></div>
                 <div> <img src="./images/9.jpg" alt="" /></div>
                 <div> <img src="./images/pexels-anete-lusina-6353850.jpg" alt="" /> </div>
@@ -27,6 +28,7 @@ export default function Home() {
                 <div> <img src="./images/dumbbells-g4fc49991e_1920.jpg" alt="" /> </div>
                 <div> <img src="./images/IMG-20220410-WA0004.png" alt="" /></div>
            </Carousel>
+          
               
         </div>
         
@@ -73,15 +75,15 @@ export default function Home() {
  <a href="/Kontakt" class="contact-btn scrollto justify-content-between"><FaLocationArrow className="d-flex justify-content-center px-2" size="50"/><span class=" d-md-inline justify-content-between h3">Hitta oss</span> </a>
  </div>
  
- <div className=" pris row justify-content-between">
+ <div className="pris row justify-content-between">
  <h5 className="col">Vi tar emot friskvård :</h5>
  <a href="/Home/Priser" className=" col-lg-2">Priser</a>
  </div>
- <div className="betalning d-flex justify-content-center">
-  <img src= "../images/epassi-1.png" class="img-fluid" alt=""/>
-  <img src= "../images/actiway.png" class="img-fluid" alt=""/>
-  <img src= "../images/benify.png" class="img-fluid" alt=""/>
-  <img src= "../images/wellnet.png" class="img-fluid" alt=""/>
+ <div className=" container betalning d-flex justify-content-center row">
+  <img src= "../images/epassi-1.png" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" alt=""/>
+  <img src= "../images/actiway.png" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" alt=""/>
+  <img src= "../images/benify.png" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" alt=""/>
+  <img src= "../images/wellnet.png" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" alt=""/>
  </div>
 
 </section>

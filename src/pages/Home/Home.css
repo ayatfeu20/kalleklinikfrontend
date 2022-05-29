@@ -1,15 +1,27 @@
 
+
+
 .welcome{
   background-color: #070755;
  }
+
+
 
 .carousel{
     justify-items: center;
     align-items: center;
     justify-content: center;
-    z-index: -1;
+    
     padding-right: 0px;
     padding-top: 0px;
+    position: absolute;
+    object-fit:cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+   
+      
        
 }
 
@@ -67,7 +79,7 @@
         box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
         transition: all 0.3s ease-in-out;
         border-radius: 8px;
-        z-index: 1;
+       
       }
 
       .featured-services .icon-box:hover{
@@ -246,29 +258,25 @@
         color: #070755;
        
       }
-                  
+      .carousel-wrapper{
+        max-width: 100%;
+      }        
     
-    .carousel img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 500px;
-            
-  }
+
   .contact-btn {
     margin: 100px 0px 0px 150px;
     font-size: 10px;
          
   }
   .betalning{
-    display: list-item;
+    display:table-column;
     position: relative;
     height: auto;
   }
   .betalning img{
-   width: 70%;
-   height: 70%;
+   width: 80%;
+   height: 80%;
+   
       
     
   }

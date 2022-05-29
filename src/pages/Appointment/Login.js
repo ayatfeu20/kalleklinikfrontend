@@ -58,28 +58,30 @@ function Login() {
 
   // JSX code for login form
   const renderForm = (
-    <div className="form ">
+    <div className="form w-100">
       <form onSubmit={handleSubmit}>
-        <div className="input-container row">
-          <label>Admin </label>
-          <input type="text" name="uname" required />
+        <div className="input-container ">
+          <label className='ml-3'>Admin </label>
+          <div className='container'>
+          <input type="text" name="uname" required className='' />
           {renderErrorMessage("uname")}
         </div>
-        <div className="input-container row">
+        <div className="input-container  ">
           <label>Lösenord </label>
-          <input type="password" name="pass" required />
+          <input type="password" name="pass" required className='' />
           {renderErrorMessage("pass")}
         </div>
-        <div className="button-container ">
+        <div className="button-container w-50 ml-12" >
             <button>Submit</button>
         </div>
+     </div>
       </form>
     </div>
   );
 
   return (
     <div className="login">
-      <div className="login-form">
+      <div className="login-form py-1">
         <div className="title ">Admin</div>
         {isSubmitted ? <div className='mt-20'>Admin is successfully logged in <br></br>
           <Link to="/Appointment/Display">Visa tider</Link>
